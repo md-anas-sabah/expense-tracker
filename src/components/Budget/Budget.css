@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap');
 .new-expense__controls {
   display: flex;
   flex-wrap: wrap;
@@ -44,11 +45,12 @@ select {
   align-items: center;
   height: 20rem;
   margin-top: 3rem;
+  font-family: 'Poppins';
   margin-bottom: 1rem;
 }
 
 .containerB .new-expense {
-  background-color: #9388a2;
+  background-color: #19181b;
   padding: 1rem;
   margin: 5rem auto;
   width: 50rem;

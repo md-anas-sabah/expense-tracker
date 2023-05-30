@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:wght@300&display=swap');
+
 .cardWapper {
   display: flex;
   align-items: center;
@@ -5,6 +7,12 @@
   flex-direction: column;
   gap: 0.5rem;
   height: 100vh;
+  font-family: 'Poppins';
+  
+}
+
+.cardWapper h1{
+  font-family: 'Ubuntu';
 }
 
 .cardWapper h2 {
