@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebaseConfig";
 import "./Navbar.css";
-import { color } from "d3";
+// import { color } from "d3";
 const t = new Date().toLocaleTimeString();
 function Navbar(props) {
   const navigate = useNavigate();
@@ -42,11 +42,11 @@ function Navbar(props) {
     <>
       <div className="nav_mobile">
         <h1>{greet} ! </h1>
-        <h2>{props.email} 🙂</h2>
+        <h2>{props.email}</h2>
         <h2>{time}</h2>
       </div>
       <div className="navbar">
-        <h1 className="logo">Kharche</h1>
+        <h1 className="logo">ExpenseXpert</h1>
         <div className="elements">
           <Link to="/" className="link">
             <i className="fa-solid fa-house child">
