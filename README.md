@@ -6,4 +6,3 @@ A web-app built using <b>React</b> and powered with <b>Firebase</b>. It is a use
 -  The app also provides an option to add the date of the expense, allowing for accurate record-keeping.
 -  To provide users with a visual representation of their expenses, <b>ExpenseXpert</b> incorporates the powerful charting library, <b>Chart.js</b>.
 -  Users can filter expenses by the newest or oldest entries.
--  
